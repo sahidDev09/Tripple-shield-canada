@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Triple Shield Roofing 🛡️
 
-## Getting Started
+**Triple Shield Roofing** is a premium, high-end web application built for Winnipeg's premier roofing specialists. The site features a "Silk & Stone" design aesthetic, utilizing modern glassmorphism, fluid animations, and a high-contrast dark theme to reflect the company's commitment to quality and durability.
 
-First, run the development server:
+![Triple Shield Roofing Logo](/public/logotripple.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 💎 Design Philosophy
+Built for a luxury service experience:
+- **Silk-Themed UI**: Smooth transitions and refined color palettes.
+- **Glassmorphism**: Subtle translucency and blurred background effects for a modern feel.
+- **Dynamic Animations**: Powered by [Framer Motion](https://www.framer.com/motion/) for an interactive, premium experience.
+- **Mobile First**: Fully responsive layout optimized for all devices.
+
+## 🚀 Key Features
+- **Dynamic Navbar**: Transparent on scroll with glassmorphic effects.
+- **Hero Section**: High-impact visual presence with call-to-action buttons.
+- **Services Grid**: Interactive cards showcasing core roofing solutions.
+- **About Section**: Detailed company history and reliability standards.
+- **Trust Marquee**: Scrolling brand badges for certifications and guarantees.
+- **Contact Integration**: Easy-to-reach phone and email links with a dedicated contact form.
+- **Footer**: Comprehensive navigation with localized service areas in Winnipeg.
+
+## 🛠️ Tech Stack
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router & React 19)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Fonts**: [Geist Sans & Mono](https://vercel.com/font)
+
+## 🏁 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18.0 or later)
+- npm, yarn, pnpm, or bun
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/tripolshield.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📂 Project Structure
+```text
+├── app/                  # Next.js App Router files
+├── components/           # React components
+│   ├── layout/           # Navbar, Footer
+│   ├── sections/         # Hero, About, Services, Contact
+│   └── ui/               # Reusable UI components
+├── lib/                  # Utility functions
+├── public/               # Static assets (images, logos)
+└── styles/               # Global CSS
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+This project is proprietary. © 2026 Triple Shield Roofing. All Rights Reserved.
